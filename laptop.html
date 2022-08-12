@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .class1{
+            background-color: darkslategray;
+            color: white;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2{
+            color: white;
+            background-color: darkslategray;
+            font-size: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #id1{
+            height: 800px;
+            width:100%;
+            background-image: url("https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-1862024611-946c2abb67c8f104e857fb2d17089d7e.jpg");
+            animation-name: laptop;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+        }
+        
+        @keyframes laptop{
+            0%{background-image: url("https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-1862024611-946c2abb67c8f104e857fb2d17089d7e.jpg"); background-size:cover;}
+            25%{background-image: url("https://www.apple.com/v/macbook-pro-13/m/images/overview/touch_bar_id__ftommex59wii_large_2x.jpg"); background-size:cover;}
+            50%{background-image: url("https://www.apple.com/v/macbook-pro-13/m/images/overview/retina_hero_screen__gddr9b8m4kuq_large_2x.jpg"); background-size:cover;}
+            75%{background-image: url("https://www.apple.com/v/macbook-pro-13/m/images/overview/magic_keyboard__brx9diaauwaa_large_2x.jpg"); background-size:cover;}
+            100%{background-image: url("https://www.apple.com/v/macbook-pro-13/m/images/meta/macbook-pro-13_overview__bcsyunk73i2a_og.jpg?202206300116"); background-size:cover;}
+        }
+        #id2{
+            height: 1550px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+            background-color: black;
+        }
+        .whatever{
+            background-color: #313436;
+            color:white;
+            height: 500px;
+            width:450px;
+            text-align: center;
+            border-radius: 50px;
+        }
+        .final{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .final2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .final2:hover{
+            color:lightgreen;
+        }
+        .final:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;background-color:darkslategray;">
+            <li class="class1">
+                <a class="class2" href="index1.html">Home</a>
+
+            </li>
+            <li class="class1">
+                <a class="class2" href="laptop.html">Laptop</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="tablet.html">Tablet</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="phone.html">Phone</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="watch.html">Watch</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="headphone.html">Headphones</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutus.html">About Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="id1"></div>
+
+    <br>
+
+    <div id="id2">
+        <div class="whatever">
+            <br>
+            <img id="laptop1" src="https://macstore.id/konten/uploads/2019/11/MacBook-Pro-SG-2.jpg" height="300px" width="400px">
+            <p class="final">MacBook Pro 16" Intel i9</p>
+            <p class="final2">$1899</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop2" src="https://macstore.id/konten/uploads/2020/05/mbp13touch-space-gallery2-202005_GEO_US-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">MacBook Pro 13" Intel i9</p>
+            <p class="final2">1499</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop3" src="https://macstore.id/konten/uploads/2020/12/mbp-spacegray-gallery2-202011_GEO_US-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">MacBook Pro 13” M1</p>
+            <p class="final2">$1299</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop4" src="https://macstore.id/konten/uploads/2021/11/mbp14-spacegray-gallery1-202110-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">MacBook Pro 14” M1</p>
+            <p class="final2">$1999</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop5" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-mbp14-silver-m1-2021_GEO_GB?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1638576281000" height="300px" width="400px"><img>
+            <p class="final">MacBook Pro 16” M1</p>
+            <p class="final2">$2299</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop6" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-mbp16touch-silver-gallery-2019_GEO_GB?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1582233074892" height="300px" width="400px"><img>
+            <p class="final">MacBook Pro 16" Intel i9</p>
+            <p class="final2">$1899</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop7" src="https://macstore.id/konten/uploads/2021/06/imac-24-green-gallery-2-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">iMac 24"</p>
+            <p class="final2">$1299</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop8" src="https://macstore.id/konten/uploads/2021/06/imac-24-blue-gallery-2-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">iMac 24"</p>
+            <p class="final2">$1299</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="laptop9" src="https://macstore.id/konten/uploads/2021/06/imac-24-touch-id-yellow-gallery-2-scaled.jpeg" height="300px" width="400px"><img>
+            <p class="final">iMac 24"</p>
+            <p class="final2">$1299</p>
+        </div>
+    </div>
+</body>
+</html>

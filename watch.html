@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .class1{
+            background-color: darkslategray;
+            color: white;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2{
+            color: white;
+            background-color: darkslategray;
+            font-size: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #id1{
+            height: 800px;
+            width:100%;
+            background-image: url("https://www.techadvisor.com/wp-content/uploads/2022/07/apple_watch_series_7_3_2.jpg?quality=50&strip=all");
+            animation-name: watch;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+        }
+        
+        @keyframes watch{
+            0%{background-image: url("https://www.techadvisor.com/wp-content/uploads/2022/07/apple_watch_series_7_3_2.jpg?quality=50&strip=all"); background-size:cover;}
+            25%{background-image: url("https://www.apple.com/v/apple-watch-se/h/images/meta/gps__f2z9m7gecsq6_og.png"); background-size:cover;}
+            50%{background-image: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-og-202203?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1645546747791"); background-size:cover;}
+            75%{background-image: url("https://cdn.mos.cms.futurecdn.net/6e7epy64hh8Pb5kYaRwTSc.jpg"); background-size:cover;}
+            100%{background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_38/3412891/apple-watch-6-kr-2x1-tease-200917.jpg"); background-size:cover;}
+        }
+
+        #id2{
+            height: 1300px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-row-gap: 10px;
+            grid-column-gap: 20px;
+            background-color: black;
+        }
+        .whatever{
+            background-color: #313436;
+            color:white;
+            height: 500px;
+            width:550px;
+            text-align: center;
+            border-radius: 50px;
+            margin-top: 40px;
+            margin-left: 75px;
+        }
+        .final{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .final2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .final2:hover{
+            color:lightgreen;
+        }
+        .final:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;background-color:darkslategray;">
+            <li class="class1">
+                <a class="class2" href="index1.html">Home</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="laptop.html">Laptop</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="tablet.html">Tablet</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="phone.html">Phone</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="watch.html">Watch</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="headphone.html">Headphones</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutus.html">About Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="id1"></div>
+
+    <br>
+
+    <div id="id2">
+        <div class="whatever">
+            <br>
+            <img id="watch1" src="https://www.mytrendyphone.co.uk/images/Spigen-Thin-Fit-Apple-Watch-Series-7-Case-41mm-Black-8809811857696-05012022-01-p.jpg" height="300px" width="300px">
+            <p class="final">Apple Watch Series 7</p>
+            <p class="final2">$399</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="watch2" src="https://johnlewis.scene7.com/is/image/JohnLewis/240382074" height="300px" width="300px"><img>
+            <p class="final">Apple Watch Series 7 NIKE+</p>
+            <p class="final2">$369</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="watch4" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/FQK32?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1523395264885" height="300px" width="300px"><img>
+            <p class="final">Apple Watch SE</p>
+            <p class="final2">$279</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="watch5" src="https://cdn.eraspace.com/pub/media/catalog/product/a/w/aw-se-40mm-gps-space-grey-black-sport-band-1.jpg" height="300px" width="300px"><img>
+            <p class="final">Apple Watch Series 3</p>
+            <p class="final2">$229</p>
+        </div>
+    </div>
+</body>
+</html>

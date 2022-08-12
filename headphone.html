@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .class1{
+            background-color: darkslategray;
+            color: white;
+            display: inline;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .class2{
+            color: white;
+            background-color: darkslategray;
+            font-size: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #id1{
+            height: 800px;
+            width:100%;
+            background-image: url("https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWlycG9kcyUyMG1heHxlbnwwfHwwfHw%3D&w=1000&q=80");
+            animation-name: headphone;
+            animation-duration: 25s;
+            animation-iteration-count: infinite;
+            animation-direction:normal;
+        }
+        
+        @keyframes headphone{
+            0%{background-image: url("https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWlycG9kcyUyMG1heHxlbnwwfHwwfHw%3D&w=1000&q=80"); background-size:cover;}
+            25%{background-image: url("https://www.apple.com/v/airpods-pro/f/images/meta/og__ch3csr9zmviq_overview.png"); background-size:cover;}
+            50%{background-image: url("https://img.freepik.com/premium-photo/kyiv-ukraine-2021-11-21-new-apple-airpods-3-yellow-background_219766-247.jpg?w=2000"); background-size:cover;}
+            75%{background-image: url("https://s.yimg.com/os/creatr-uploaded-images/2020-12/5c3b6610-4493-11eb-befb-0b1948212105"); background-size:cover;}
+            100%{background-image: url("https://www.cnet.com/a/img/resize/a37fc9be52e958882b9250df0f460ecef305a274/hub/2019/03/28/6ebab2bb-41d2-4545-a234-f6f57a257db5/13-airpods-2nd-generation.jpg?auto=webp&width=768"); background-size:cover;}
+        }
+        #id2{
+            height: 2300px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto;
+            grid-row-gap: 10px;
+            grid-column-gap: 20px;
+            background-color: black;
+        }
+        .whatever{
+            background-color: #313436;
+            color:white;
+            height: 500px;
+            width:800px;
+            text-align: center;
+            border-radius: 50px;
+            margin-top: 40px;
+            margin-left:23%;
+        }
+        .final{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .final2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+        }
+        .final2:hover{
+            color:lightgreen;
+        }
+        .final:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav style="text-align:center;">
+        <ul style="list-style-type: none;background-color:darkslategray;">
+            <li class="class1">
+                <a class="class2" href="index1.html">Home</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="laptop.html">Laptop</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="tablet.html">Tablet</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="phone.html">Phone</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="watch.html">Watch</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="headphone.html">Headphones</a>
+            </li>
+            <li class="class1">
+                <a class="class2" href="aboutus.html">About Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="id1"></div>
+
+    <br>
+
+    <div id="id2">
+        <div class="whatever">
+            <br>
+            <img id="headphone1" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-hero-select-202011_FMT_WHH?wid=607&hei=556&fmt=jpeg&qlt=90&.v=1633623988000" height="300px" width="300px">
+            <p class="final">AirPods Max</p>
+            <p class="final2">$549</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="headphone2" src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/27/be66aff5-56fc-4458-97aa-11a5afdc04dc.jpg" height="300px" width="300px"><img>
+            <p class="final">AirPods 3rd Generation</p>
+            <p class="final2">$179</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="headphone3" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1591634795000" height="300px" width="300px"><img>
+            <p class="final">AirPods Pro</p>
+            <p class="final2">$249</p>
+        </div>
+        <div class="whatever">
+            <br>
+            <img id="headphone4" src="data:image/jpeg;base64,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" height="300px" width="300px"><img>
+            <p class="final">AirPods 2nd Generation</p>
+            <p class="final2">$99</p>
+        </div>
+    </div>
+</body>
+</html>
